@@ -72,3 +72,32 @@
 <img src="assets/image-20230405190611903.png" alt="image-20230405190611903" style="float:left" />
 
 >  这样我们开始了第一课，使用简单的vue
+
+```vue
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <!-- 引入vue -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <!-- script中app绑定到了id=app中 显示root的所有内容 -->
+    <div id="app"></div>
+    <script>
+        // 编写vue代码
+        const Root = {
+            data(){
+                return {
+                    // 声明变量
+                    count:0,
+                }
+            },
+            // 组件中使用变量@click绑定变量 {{}}格式引用
+            template: "<button @click='count++'>点我</button>{{count}}"
+        }
+        // 创建实例 并挂载在id=app
+        const app = Vue.createApp(Root).mount('#app')
+    </script>
+</body>
+</html>
+```
