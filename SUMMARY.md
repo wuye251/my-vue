@@ -7,3 +7,6 @@
 * [day4.data详解](day4.data详解.md)
 
 - [day5.组合式api](day5.组合式api.md)
+- [day6模板语法](day6模板语法.md)
+
+- [踩坑](踩坑.md)
