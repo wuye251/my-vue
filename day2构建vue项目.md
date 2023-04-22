@@ -64,15 +64,15 @@ createApp(App).mount("#app")
 
 `yarn dev`查看效果
 
-<img src="http://img.hahagblog.com/local/image-20230408174730353.png" alt="image-20230408174730353" style="zoom:50%;" />
+![image-20230422181136029](assets/image-20230422181148774.png)
 
 如果此时v2版本需要多个点击按钮呢
 
-<img src="http://img.hahagblog.com/local/image-20230408174901089.png" alt="image-20230408174901089" style="zoom:50%;" />
+![image-20230422181205067](assets/image-20230422181205067.png)
 
 我们添加了这么多的按钮
 
-![image-20230408174912250](http://img.hahagblog.com/local/image-20230408174912250.png)
+![image-20230422181223740](assets/image-20230422181223740.png)
 
 #### 按钮组件化
 
@@ -134,7 +134,7 @@ createApp(App).mount("#app")
 
 效果如下：
 
-<img src="http://img.hahagblog.com/local/image-20230408175509126.png" alt="image-20230408175509126" style="zoom:50%;" />
+![image-20230422181242373](assets/image-20230422181242373.png)
 
 #### 引入vue格式文件
 
@@ -227,7 +227,7 @@ createApp(App).mount("#app")
 
   页面如下：
 
-  ![image-20230412003942557](http://img.hahagblog.com/local/image-20230412003942557.png)
+  <img src="assets/image-20230422181300719.png" alt="image-20230422181300719" style="zoom:50%;" />
 
 > 到此，我们算是真正入门了vue的第一课，使用vue语法创建一个组件并在某个页面中使用该组件
 

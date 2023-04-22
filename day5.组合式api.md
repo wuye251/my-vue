@@ -80,9 +80,7 @@ console.log("ref.value----",msg.value)
 </template>
 ```
 
-
-
-![image-20230418215929913](http://img.hahagblog.com/local/image-20230418215929913.png)
+![image-20230422181441779](assets/image-20230422181441779.png)
 
 1. setup中的变量通常不是响应式的，如果需要响应式，需要import reactive使用
 2. 如果要在页面中使用变量 则需要再setup 中return
